@@ -1,0 +1,45 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+    "humao.rest-client",
+    "slevesque.vscode-3dviewer",
+    "jarga.apib",
+    "develiteio.api-blueprint-viewer",
+    "vncz.vscode-apielements",
+    "msjsdiag.debugger-for-chrome",
+    "ms-azuretools.vscode-docker",
+    "hediet.vscode-drawio",
+    "zhfjyq.vscode-plugin-drawio",
+    "editorconfig.editorconfig",
+    "csholmq.excel-to-markdown-table",
+    "donjayamanne.githistory",
+    "huizhou.githd",
+    "atlassian.atlascode",
+    "yzhang.markdown-all-in-one",
+    "yzane.markdown-pdf",
+    "shd101wyy.markdown-preview-enhanced",
+    "tomashubelbauer.vscode-markdown-table-format",
+    "cweijan.vscode-mysql-client2",
+    "morrislaptop.vscode-open-in-sourcetree",
+    "mushan.vscode-paste-image",
+    "damianbal.vs-phpclassgen",
+    "felixfbecker.php-debug",
+    "neilbrayfield.php-docblocker",
+    "marabesi.php-import-checker",
+    "bmewburn.vscode-intelephense-client",
+    "mehedidracula.php-namespace-resolver",
+    "kyledavide.vscode-project-links",
+    "octref.vetur",
+    "tomoki1207.pdf",
+    "jcbuisson.vue",
+    "redhat.vscode-yaml",
+    "gustavoasc.google-drive-vscode"
+  ],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+
+	]
+}

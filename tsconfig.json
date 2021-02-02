@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+	"module": "commonjs",
+	"strict": true,
+	"jsx": "preserve",
+	"importHelpers": true,
+	// "moduleResolution": "node",
+	"experimentalDecorators": true,
+	"skipLibCheck": true,
+	"esModuleInterop": true,
+	"allowSyntheticDefaultImports": true,
+	"sourceMap": true,
+	"baseUrl": ".",
+	"types": [
+	   "webpack-env",
+	   "resize-observer-browser",
+	],
+	"paths": {
+		"@/*": [
+		  "resources/ts/*"
+		]
+	  },
+	"lib": [
+		"esnext",
+		"dom",
+		"dom.iterable",
+		"scripthost"
+	  ]
+  },
+  "include": [
+		"resources/ts/**/*.ts",
+		"resources/ts/**/*.tsx",
+		"resources/ts/**/*.vue",
+		"resources/tests/**/*.ts",
+		"resources/tests/**/*.tsx"
+  ],
+  "exclude": [
+		"node_modules"
+  ]
+
+
+
+}

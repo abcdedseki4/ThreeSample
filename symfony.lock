@@ -1,0 +1,145 @@
+{
+    "composer/package-versions-deprecated": {
+        "version": "1.11.99.1"
+    },
+    "doctrine/event-manager": {
+        "version": "1.1.1"
+    },
+    "jawira/plantuml": {
+        "version": "v1.46.0"
+    },
+    "jean85/pretty-package-versions": {
+        "version": "1.5.1"
+    },
+    "laminas/laminas-code": {
+        "version": "3.5.1"
+    },
+    "laminas/laminas-eventmanager": {
+        "version": "3.3.0"
+    },
+    "laminas/laminas-zendframework-bridge": {
+        "version": "1.1.1"
+    },
+    "league/pipeline": {
+        "version": "1.0.0"
+    },
+    "league/tactician": {
+        "version": "v1.0.3"
+    },
+    "league/tactician-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "222c3d39d38378bc6a9790a0b5baf841ba6679b9"
+        },
+        "files": [
+            "config/packages/league_tactician.yaml"
+        ]
+    },
+    "league/tactician-container": {
+        "version": "2.0.0"
+    },
+    "league/tactician-logger": {
+        "version": "v0.10.0"
+    },
+    "league/uri": {
+        "version": "6.4.0"
+    },
+    "league/uri-interfaces": {
+        "version": "2.2.0"
+    },
+    "ocramius/proxy-manager": {
+        "version": "2.10.0"
+    },
+    "phpdocumentor/flyfinder": {
+        "version": "1.0.0"
+    },
+    "phpdocumentor/graphviz": {
+        "version": "2.0.0-beta2"
+    },
+    "phpdocumentor/phpdocumentor": {
+        "version": "v3.0.0"
+    },
+    "phpdocumentor/reflection": {
+        "version": "4.0.1"
+    },
+    "symfony/cache": {
+        "version": "v5.2.0"
+    },
+    "symfony/config": {
+        "version": "v5.2.0"
+    },
+    "symfony/dependency-injection": {
+        "version": "v5.2.0"
+    },
+    "symfony/dom-crawler": {
+        "version": "v5.1.9"
+    },
+    "symfony/dotenv": {
+        "version": "v5.2.0"
+    },
+    "symfony/expression-language": {
+        "version": "v5.2.0"
+    },
+    "symfony/filesystem": {
+        "version": "v5.2.0"
+    },
+    "symfony/framework-bundle": {
+        "version": "5.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.1",
+            "ref": "5f0d0fd82ffa3580fe0ce8e3b2d18506ebf37a0e"
+        },
+        "files": [
+            "config/packages/cache.yaml",
+            "config/packages/framework.yaml",
+            "config/packages/test/framework.yaml",
+            "config/preload.php",
+            "config/routes/dev/framework.yaml",
+            "config/services.yaml",
+            "public/index.php",
+            "src/Controller/.gitignore",
+            "src/Kernel.php"
+        ]
+    },
+    "symfony/monolog-bridge": {
+        "version": "v5.2.0"
+    },
+    "symfony/monolog-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "d7249f7d560f6736115eee1851d02a65826f0a56"
+        },
+        "files": [
+            "config/packages/dev/monolog.yaml",
+            "config/packages/prod/deprecations.yaml",
+            "config/packages/prod/monolog.yaml",
+            "config/packages/test/monolog.yaml"
+        ]
+    },
+    "symfony/proxy-manager-bridge": {
+        "version": "v5.2.0"
+    },
+    "symfony/stopwatch": {
+        "version": "v5.2.0"
+    },
+    "symfony/var-exporter": {
+        "version": "v5.2.0"
+    },
+    "symfony/yaml": {
+        "version": "v5.2.0"
+    },
+    "twig/twig": {
+        "version": "v2.14.1"
+    },
+    "webimpress/safe-writer": {
+        "version": "2.1.0"
+    }
+}
